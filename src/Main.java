@@ -52,11 +52,11 @@ public class Main {
             }
         }
         if(wsp != 1 && wsp != 2 && wsp != 3) {
-        	System.out.println("ERROR INTÓW");
+        	System.out.println("ERROR INTÃ“W");
         	skanowanie(wsp, wsp2, tablica);
         }
         if(wsp2 != 1 && wsp2 != 2 && wsp2 != 3) {
-        	System.out.println("ERROR INTÓW 2");
+        	System.out.println("ERROR INTÃ“W 2");
         	skanowanie(wsp, wsp2, tablica);
         }
 
@@ -133,7 +133,7 @@ public class Main {
         else if(tablica[1][1] == tablica[2][2] && tablica[2][2] == tablica[3][3] && (tablica[1][1] == 'X' || tablica[1][1] == 'O')){
         	System.out.println(tablica[1][1] + " wins.");
         }
-        else if(tablica[1][3] == tablica[2][3] && tablica[2][3] == tablica[3][3] && (tablica[1][3] == 'X' || tablica[1][3] == 'O')){
+        else if(tablica[1][3] == tablica[2][2] && tablica[2][2] == tablica[3][1] && (tablica[1][3] == 'X' || tablica[1][3] == 'O')){
         	System.out.println(tablica[1][3] + " wins.");
         }
         else {
